@@ -1,0 +1,4 @@
+FROM tomcat:8-jre8
+LABEL maintainer="vamsi"
+COPY ./TrainBook-1.0.0-SNAPSHOT.war /usr/local/tomcat/webapps
+EXPOSE 80
